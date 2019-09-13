@@ -1,7 +1,7 @@
 {
   "env": {
     "test": {
-      "presets": [
+      "presets": [ 
         "@babel/react", 
         "@babel/preset-env"
       ],
@@ -10,6 +10,16 @@
         "./**/*.js",
         "node_modules/jest-runtime"
       ]
+    },
+    "development": {
+      "presets": [
+        "razzle/babel"
+      ],
+    },
+    "production": {
+      "presets": [
+        "razzle/babel"
+      ],
     }
   }
 }
