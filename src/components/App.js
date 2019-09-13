@@ -6,6 +6,10 @@ import Home from './Home'
 import './../assets/css/index.css'
 import './../assets/css/login.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import 'semantic-ui-css/components/dimmer.min.css'
+import 'semantic-ui-css/components/loader.min.css'
+import 'semantic-ui-css/components/segment.min.css'
+import 'semantic-ui-css/components/message.min.css'
 
 const App = () => (
   <div id='app'>
