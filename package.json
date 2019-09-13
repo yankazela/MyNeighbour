@@ -70,14 +70,5 @@
     "redux-devtools": "^3.4.1",
     "redux-devtools-extension": "^2.13.5",
     "sass-loader": "^6.0.7"
-  },
-  "workspaces": {
-    "packages": [
-        "packages/*"
-    ],
-    "nohoist": [
-        "**/jest/**",
-        "**/jest"
-    ]
-}
+  }
 }
