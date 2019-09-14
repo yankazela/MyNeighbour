@@ -5,7 +5,7 @@
   "scripts": {
     "start": "razzle start",
     "build": "razzle build",
-    "test": "jest",
+    "test": "razzle test",
     "start:prod": "NODE_ENV=production node build/server.js"
   },
   "dependencies": {
@@ -23,8 +23,6 @@
     "google-map-react": "^1.1.4",
     "google-maps": "^3.3.0",
     "import": "0.0.6",
-    "jest": "^24.9.0",
-    "jest-cli": "^24.9.0",
     "lodash": "^4.17.11",
     "material-ui": "^0.19.4",
     "muicss": "^0.9.41",
