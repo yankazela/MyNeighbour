@@ -13,5 +13,6 @@ deploy:
   - provider: pages
   - skip-cleanup: true
   - github-token: \$GITHUB-TOKEN
+  - local_dir: build
 on: 
-  branch: testing-branch
+  branch: master
