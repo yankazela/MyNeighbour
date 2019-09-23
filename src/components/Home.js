@@ -129,20 +129,17 @@ class Home extends Component {
               <h1 className='title'>My Neighborhood</h1>
               <form className='contact-form row' onSubmit={this.handleSubmit}>
                 <div className='form-field col-lg-6'>
-                  <input id='address' name='address' className='input-text js-input' type='text' onChange={this.handleChange} required />
-                  <label className='label' htmlFor='name'>Address</label>
+                  <input id='address' name='address' className='input-text js-input' type='text' placeholder='Address' onChange={this.handleChange} required />
                 </div>
                 <div className='form-field col-lg-6 '>
-                  <input id='suburb' name='suburb' className='input-text js-input' type='text' onChange={this.handleChange} required />
-                  <label className='label' htmlFor='email'>Suburb</label>
+                  <input id='suburb' name='suburb' className='input-text js-input' type='text' placeholder='Suburb' onChange={this.handleChange} required />
                 </div>
                 <div className='form-field col-lg-6 '>
-                  <input id='city' name='city' className='input-text js-input' type='text' onChange={this.handleChange} required />
-                  <label className='label' htmlFor='company'>City</label>
+                  <input id='city' name='city' className='input-text js-input' type='text' placeholder='City' onChange={this.handleChange} required />
                 </div>
                 <div className='form-field col-lg-6 '>
                   <select name='country' className='input-text js-input' id='country' onChange={this.handleChange} >
-                    <option value=''>{}</option>
+                    <option value=''>{'Country'}</option>
                     <option value='Afghanistan'>Afghanistan</option>
                     <option value='Åland Islands'>Åland Islands</option>
                     <option value='Albania'>Albania</option>
@@ -388,7 +385,6 @@ class Home extends Component {
                     <option value='Zambia'>Zambia</option>
                     <option value='Zimbabwe'>Zimbabwe</option>
                   </select>
-                  <label className='label' htmlFor='phone'>Contry</label>
                 </div>
                 <div className='form-field col-lg-12'>
                   <input className='submit-btn' type='submit' value='Search' />
