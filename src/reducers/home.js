@@ -1,6 +1,5 @@
 import { put, call, takeLatest } from 'redux-saga/effects'
 import axios from 'axios'
-// import qs from 'qs'
 
 export const REINITIALIZE = 'api/REINITIALIZE'
 export const SUBMIT = 'api/SUBMIT'
