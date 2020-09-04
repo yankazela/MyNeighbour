@@ -64,7 +64,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "fast-sass-loader": "^1.4.6",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "redux-devtools": "^3.4.1",
     "redux-devtools-extension": "^2.13.5",
     "sass-loader": "^6.0.7"
